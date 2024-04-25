@@ -15,7 +15,7 @@ hide_st_style = """
 
 
 st.markdown(hide_st_style, unsafe_allow_html=True)
-st.title("home page")
+st.title("INFO:")
 
 page_bg_img = f"""
 <style>
@@ -36,10 +36,11 @@ background: rgba(255,0,0,0);
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
-col1.write("## About US:\nwe are a group of that does this and that")
+col1.write("## Our Work:\nwe provide this and this\nthis\nthis")
 command = """
-<div style="text-align:center">
-  <img src="https://github.com/SamVia/exchange-site/blob/main/logo.png?raw=true" alt="Image Description" style="width: 400px; height: auto;" />
-</div>
+<div style="text-align:center; border:4px; border-radius:5px;">
+  <img src="https://www.verywellfamily.com/thmb/zzxxNlOAiqHASXAMVdlQSS7wQbs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyEchoSummerKidsBubbles-56aa2ed75f9b58b7d001a147.jpg" alt="Image Description" style="width: 400px; height: auto;" />
+    
+  </div>
 """
 col2.markdown(command, unsafe_allow_html=True)
