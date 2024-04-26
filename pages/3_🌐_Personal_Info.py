@@ -15,7 +15,7 @@ hide_st_style = """
 
 
 st.markdown(hide_st_style, unsafe_allow_html=True)
-st.title("INFO:")
+
 
 page_bg_img = f"""
 <style>
@@ -72,7 +72,8 @@ def button_logo(site, logo, circle):
 </a>
 """
 
-st.title("About the team")
+st.title("About the team\n")
+"------"
 
 col1, col2,col3 = st.columns(3)
 with col1:
@@ -153,7 +154,7 @@ with col3:
       border-radius: 10px;
 
       /* Background Properties */
-      background-color: #000000;
+      background-color: rgba(0,0,0,0.1);
 
       /* Text Properties */
       color: white;
@@ -174,7 +175,7 @@ with col3:
   </head>
   <body>
     <div class="custom-text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis sagittis ipsum. Ut eget sagittis purus. Etiam lacus elit, aliquet nec feugiat non, venenatis id est. Sed id laoreet purus, vel consequat arcu. Pellentesque mollis, quam sit amet imperdiet tempus, lorem neque finibus leo, commodo iaculis lacus lorem sit amet lorem. Vivamus maximus justo diam, a pharetra lacus lobortis at. Nunc viverra lacus enim, vel finibus libero elementum tempor. Curabitur sagittis pretium augue. Praesent luctus ullamcorper tortor ut consequat. Morbi semper neque id molestie euismod. Maecenas ornare leo at risus venenatis, in molestie metus tempor. Nam id odio sem. Fusce in diam viverra, vestibulum libero at, facilisis dolor. Mauris erat dolor, imperdiet in eros eget, iaculis laoreet tellus. Suspendisse potenti. Vivamus consectetur ullamcorper libero, ac interdum lorem auctor et.
+    We are three youths from Greece and Italy. The project started as an informal idea, which has been later polished and redefined to accomodate all the needs. Samuele, from the team, has experience in leading groups of people and non formal education. Giulia, from Italy, has been working in the field of education for kids aged 4 to 10. Ana, from Greece, has been interested in the topic since a young age, worked for many years as a teacher in midde school. 
 </div>
 </body>  
     
